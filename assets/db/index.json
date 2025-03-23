@@ -1,0 +1,68 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "American Marigold",
+        "price": 23.45,
+        "image":"https://www.google.com/imgres?q=american-marigold&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fb%2Fb0%2FTagetes_erecta_chendumalli_chedi.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTagetes&docid=dZhK66plB-2T-M&tbnid=QND4SN-JebQfpM&vet=12ahUKEwjznbWAyaCMAxVyPhAIHafTFxsQM3oECBYQAA..i&w=1363&h=2048&hcb=2&ved=2ahUKEwjznbWAyaCMAxVyPhAIHafTFxsQM3oECBYQAA",
+        "hoverImage": "https://www.google.com/imgres?q=american-marigold&imgurl=http%3A%2F%2Fextension.msstate.edu%2Fsites%2Fdefault%2Ffiles%2Fnews%2Fsouthern-gardening%2F2016%2Fsg20160502_american.jpg&imgrefurl=http%3A%2F%2Fextension.msstate.edu%2Fnews%2Fsouthern-gardening%2F2016%2Funappreciated-marigolds-are-dependable-colorful&docid=W4lfL6OvhowghM&tbnid=Ih9bqmvzalB5FM&vet=12ahUKEwiKgv-ZyaCMAxV6HBAIHb8XLaIQM3oECFwQAA..i&w=2100&h=1500&hcb=2&ved=2ahUKEwiKgv-ZyaCMAxV6HBAIHb8XLaIQM3oECFwQAA",
+        "rating": 5
+      },
+      {
+        "id": "2",
+        "name": "Black Eyed Susan",
+        "price": 25.45,
+        "image": "https://www.google.com/imgres?q=black-eyed%20susan&imgurl=http%3A%2F%2Flandscapedirect.ca%2Fcdn%2Fshop%2Fproducts%2FPERUG_9ee9d338-cb04-4df3-a13e-76f6dcc45f15.jpg%3Fv%3D1738883953&imgrefurl=https%3A%2F%2Flandscapedirect.ca%2Fproducts%2Fblack-eyed-susan&docid=6blUq9AKuDTULM&tbnid=e9V50Og78aoalM&vet=12ahUKEwjPnLyqyaCMAxU9FBAIHV2vCn8QM3oECGYQAA..i&w=1500&h=1500&hcb=2&ved=2ahUKEwjPnLyqyaCMAxU9FBAIHV2vCn8QM3oECGYQAA",
+        "hoverImage": "https://www.google.com/imgres?q=black-eyed%20susan&imgurl=https%3A%2F%2Fwww.gardendesign.com%2Fpictures%2Fimages%2F900x705Max%2Fdream-team-s-portland-garden_6%2Fblack-eyed-susan-rudbeckia-pixabay_12719.jpg&imgrefurl=https%3A%2F%2Fwww.gardendesign.com%2Fflowers%2Fblack-eyed-susan.html&docid=wG6CGyzx5FmL3M&tbnid=KRstjy-36wLBIM&vet=12ahUKEwjPnLyqyaCMAxU9FBAIHV2vCn8QM3oECF4QAA..i&w=900&h=639&hcb=2&ved=2ahUKEwjPnLyqyaCMAxU9FBAIHV2vCn8QM3oECF4QAA",
+        "rating": 5
+      },
+      {
+        "id": "3",
+        "name": "Bleeding Heart",
+        "price": 30.45,
+        "image": "https://www.google.com/imgres?q=Bleeding%20Heart&imgurl=https%3A%2F%2Fheritagenursery.com.au%2Fcdn%2Fshop%2Ffiles%2FBleedingHeart_1_800x.png%3Fv%3D1692773878&imgrefurl=https%3A%2F%2Fheritagenursery.com.au%2Fproducts%2Flamprocapnos-spectablis-valentine-14cm&docid=F3Pgg4177D-XtM&tbnid=rTgUvaqYBfkX5M&vet=12ahUKEwimtfXGyaCMAxXJLRAIHcTDHVAQM3oECHAQAA..i&w=800&h=800&hcb=2&ved=2ahUKEwimtfXGyaCMAxXJLRAIHcTDHVAQM3oECHAQAA",
+        "hoverImage": "https://www.google.com/imgres?q=Bleeding%20Heart&imgurl=https%3A%2F%2Fassets.gardeners.com%2Ftransform%2FPDP_Main%2F01798ced-95b2-4ae1-8f98-6cf6d175b7ac%2F8615093_02V_bleeding-heart&imgrefurl=https%3A%2F%2Fwww.gardeners.com%2Fbuy%2Fbleeding-hearts-roots-ba1586c6%2F8615093.html&docid=6fDGPabhesXy6M&tbnid=7HgK_kXMvyIdaM&vet=12ahUKEwimtfXGyaCMAxXJLRAIHcTDHVAQM3oECH0QAA..i&w=840&h=1120&hcb=2&ved=2ahUKEwimtfXGyaCMAxXJLRAIHcTDHVAQM3oECH0QAA",
+        "rating": 5
+      },
+      {
+        "id": "4",
+        "name": "Bloody Cranesbill",
+        "price": 45.00,
+        "image": "https://www.google.com/imgres?q=Bloody%20Cranesbill&imgurl=https%3A%2F%2Fwww.wildflowersofireland.net%2Fimage_uploads%2Fflowers%2FCranesbill-Bloody-1.jpg&imgrefurl=https%3A%2F%2Fwww.wildflowersofireland.net%2Fplant_detail.php%3Fid_flower%3D75&docid=iZ5zmf-L7crpRM&tbnid=FOAaytXCSBKS-M&vet=12ahUKEwj5iOvbyaCMAxV1FxAIHcKSEacQM3oECGoQAA..i&w=326&h=326&hcb=2&ved=2ahUKEwj5iOvbyaCMAxV1FxAIHcKSEacQM3oECGoQAA",
+        "hoverImage": "https://www.google.com/imgres?q=Bloody%20Cranesbill&imgurl=https%3A%2F%2Fshopgreenlandgarden.com%2Fcdn%2Fshop%2Fproducts%2FGeraniumsanguineumbyJoeGadbois.jpg%3Fv%3D1663795307%26width%3D1920&imgrefurl=https%3A%2F%2Fshopgreenlandgarden.com%2Fproducts%2Fper-cranesbillmax&docid=ya6mveFjo0QsNM&tbnid=rQC8d68Owkp9MM&vet=12ahUKEwj5iOvbyaCMAxV1FxAIHcKSEacQM3oECFAQAA..i&w=1920&h=1440&hcb=2&ved=2ahUKEwj5iOvbyaCMAxV1FxAIHcKSEacQM3oECFAQAA",
+        "rating": 5
+      },
+      {
+        "id": "5",
+        "name": "Butterfly Weed",
+        "price": 50.45,
+        "image": "https://www.google.com/imgres?q=Butterfly%20Weed&imgurl=https%3A%2F%2Fwww.lewisginter.org%2Fwp-content%2Fuploads%2F2018%2F06%2FAsclepias-tuberosa-photo-by-Tom-Hennessy.jpg&imgrefurl=https%3A%2F%2Fwww.lewisginter.org%2Fbutterfly-weed%2F&docid=oV5i_yDyjZZvxM&tbnid=acIYFIgayOAwLM&vet=12ahUKEwjLr8vwyaCMAxWPPxAIHR8EHd0QM3oECE8QAA..i&w=1250&h=1000&hcb=2&ved=2ahUKEwjLr8vwyaCMAxWPPxAIHR8EHd0QM3oECE8QAA",
+        "hoverImage": "https://www.google.com/imgres?q=Butterfly%20Weed&imgurl=https%3A%2F%2Fwww.provenwinners.com%2Fsites%2Fprovenwinners.com%2Ffiles%2Fimagecache%2Flow-resolution%2Fifa_upload%2Fasclepias_tuberosa_apj16_3.jpg&imgrefurl=https%3A%2F%2Fwww.provenwinners.com%2Fplants%2Fasclepias%2Fbutterfly-weed-asclepias-tuberosa&docid=LBtNKgL16aCLZM&tbnid=bkp4MNcLoeNhkM&vet=12ahUKEwjLr8vwyaCMAxWPPxAIHR8EHd0QM3oECE4QAA..i&w=1024&h=683&hcb=2&ved=2ahUKEwjLr8vwyaCMAxWPPxAIHR8EHd0QM3oECE4QAA",
+        "rating": 5
+      },
+      {
+        "id": "6",
+        "name": "Common Yarrow",
+        "price": 65.00,
+        "image": "https://www.google.com/imgres?q=Common%20Yarrow&imgurl=https%3A%2F%2Fwww.toadshade.com%2Fimages%2FAchillea-millefolium_1.jpg&imgrefurl=https%3A%2F%2Fwww.toadshade.com%2FAchillea-millefolium.html&docid=ztpWhClVgF0wVM&tbnid=V4jlC9NHhIjkTM&vet=12ahUKEwjSl9iByqCMAxX0JhAIHZ22A6IQM3oECH4QAA..i&w=800&h=762&hcb=2&ved=2ahUKEwjSl9iByqCMAxX0JhAIHZ22A6IQM3oECH4QAA",
+        "hoverImage": "https://www.google.com/imgres?q=Common%20Yarrow&imgurl=https%3A%2F%2Fplantura.garden%2Fuk%2Fwp-content%2Fuploads%2Fsites%2F2%2F2021%2F11%2Fachillea-millefolium-1024x683.jpg%3Fx63657&imgrefurl=https%3A%2F%2Fplantura.garden%2Fuk%2Fherbs%2Fyarrow%2Fcommon-yarrow&docid=jAuIxyi6gCmtXM&tbnid=g6jaoDb_BshoPM&vet=12ahUKEwjSl9iByqCMAxX0JhAIHZ22A6IQM3oECBoQAA..i&w=1024&h=683&hcb=2&ved=2ahUKEwjSl9iByqCMAxX0JhAIHZ22A6IQM3oECBoQAA",
+        "rating": 5
+      },
+      {
+        "id": "7",
+        "name": "Doublefile Viburnum",
+        "price": 67.45,
+        "image": "https://www.google.com/imgres?q=Doublefile%20Viburnum&imgurl=https%3A%2F%2Fimages.finegardening.com%2Fapp%2Fuploads%2F2018%2F01%2F23143611%2Fviburnumplicatumtomentosum_mg_2_lg_0-main-500x500.jpg&imgrefurl=https%3A%2F%2Fwww.finegardening.com%2Fplant%2Fdoublefile-viburnum-viburnum-plicatum-f-tomentosum&docid=IoiHcpWAqYaY_M&tbnid=11V9KzpljAwdFM&vet=12ahUKEwjX9p-TyqCMAxV8QVUIHWhRMIYQM3oECE4QAA..i&w=500&h=500&hcb=2&ved=2ahUKEwjX9p-TyqCMAxV8QVUIHWhRMIYQM3oECE4QAA",
+        "hoverImage": "https://www.google.com/imgres?q=Doublefile%20Viburnum&imgurl=http%3A%2F%2Fals-gardencenter.com%2Fcdn%2Fshop%2Ffiles%2FMarie_sDoublefileViburnum.jpg%3Fv%3D1694130175&imgrefurl=https%3A%2F%2Fals-gardencenter.com%2Fproducts%2Fviburnum-plicatum-tomentosum-doublefile-viburnum&docid=fXlqDUhlv0fhVM&tbnid=QOU8y6Ji1usJpM&vet=12ahUKEwjX9p-TyqCMAxV8QVUIHWhRMIYQM3oECG4QAA..i&w=2048&h=2048&hcb=2&ved=2ahUKEwjX9p-TyqCMAxV8QVUIHWhRMIYQM3oECG4QAA",
+        "rating": 5
+      },
+      {
+        "id": "8",
+        "name": "Feather Reed Grass",
+        "price": 20.00,
+        "image": "https://www.google.com/imgres?q=Feather%20Reed%20Grass&imgurl=https%3A%2F%2Fimages.thdstatic.com%2FproductImages%2Ffa03f6f6-e904-4176-bc8e-a52fc001a8d2%2Fsvn%2Fonline-orchards-ornamental-grasses-gror001-64_1000.jpg&imgrefurl=https%3A%2F%2Fwww.homedepot.com%2Fp%2FOnline-Orchards-1-Gal-Avalanche-Feather-Reed-Grass-Lovely-Tall-Variegated-Ornamental-Grass-Perfect-for-Borders-and-Accents-GROR001%2F311362041&docid=5YXSmZVLM9eQgM&tbnid=WA1OzWrjc1QOdM&vet=12ahUKEwj705ipyqCMAxVrLBAIHd8rLnwQM3oECBYQAA..i&w=1000&h=1000&hcb=2&ved=2ahUKEwj705ipyqCMAxVrLBAIHd8rLnwQM3oECBYQAA",
+        "hoverImage": "https://www.google.com/imgres?q=Feather%20Reed%20Grass&imgurl=https%3A%2F%2Fwww.thetreecenter.com%2Fc%2Fuploads%2Fkarl-foerster-grass-1-600x450.jpg&imgrefurl=https%3A%2F%2Fwww.thetreecenter.com%2Fkarl-foerster-feather-reed-grass%2F&docid=zmmzGvk0bEfpAM&tbnid=vUGF5c9SIEDWtM&vet=12ahUKEwj705ipyqCMAxVrLBAIHd8rLnwQM3oECFQQAA..i&w=600&h=450&hcb=2&ved=2ahUKEwj705ipyqCMAxVrLBAIHd8rLnwQM3oECFQQAA",
+        "rating": 5
+      }
+    ]
+  }
