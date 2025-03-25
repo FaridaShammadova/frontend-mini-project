@@ -36,6 +36,7 @@
 .header .header-body .icons {
     margin-right: 70px;
     cursor: pointer;
+    transition: color ease 0.3s;
 }
 
 .header .header-body .icons .heart-icon, 
@@ -76,10 +77,53 @@
     margin-top: 50px;
 }
 
+.main .home-about{
+    background-image: url("/assets/images/watercolor-floral-background_23-2149652760.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .home-about .home {
+    cursor: pointer;
+    transition: color ease 0.3s;
+}
+
+.main .home-about .home:hover {
+    color: #63d46f;
+}
+
+.main .home-about .square {
+    color: #63d46f;
+    cursor: pointer;
+}
+
+.main .story{
+    margin-top: 70px;
+}
+
+.main .story .container h1{
+    font-size: 50px;
+}
+
+.main .story .container .story{
+    color: #63d46f;
+}
+
+.main .story .container .text{
+    color: #5c5d5c;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
 .main .three-cards {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .main .three-cards .card-1,
@@ -112,140 +156,32 @@
     font-size: 15px;
 }
 
-.main .products {
-    margin-top: 100px;
-}
-
-.main .products h1 {
+.main .about-numbers .container{
+    margin-top: 80px;
+    font-style: italic;
     text-align: center;
-    margin-bottom: 50px;
+    max-width: 1000px;
 }
 
-.main .products .sorted-cards {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    gap: 50px;
-}
-
-.main .products .sorted-cards .card-1,
-.main .products .sorted-cards .card-2,
-.main .products .sorted-cards .card-3 {
-    border: 1px solid #5c5d5c;
-    padding: 10px 10px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-    flex: 1;
-    min-width: 100px;
-}
-
-.main .products .sorted-cards .card-1 p,
-.main .products .sorted-cards .card-2 p,
-.main .products .sorted-cards .card-3 p {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.main .products .sorted-cards .card-1:hover,
-.main .products .sorted-cards .card-2:hover,
-.main .products .sorted-cards .card-3:hover {
-    border: 1px dashed #63d46f;
-    transform: scale(1.05);
-}
-
-.main .products .cards .card-wrapper .card {
-    margin-bottom: 30px;
-    border: 1px solid #e5e5e5;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.main .products .cards .card-wrapper .card:hover {
-    transform: scale(1.05);
-}
-
-.main .products .cards .card-wrapper .card .card-img {
-    height: 250px;
-    width: 100%;
-    border-radius: 4px;
-}
-
-.main .products .cards .card-wrapper .card .card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.main .products .cards .card-wrapper .card .card-body .card-title:hover {
+.main .about-numbers .container .eiusmod-tempor{
     color: #63d46f;
 }
 
-.main .products .cards .card-wrapper .card .card-body .card-text {
-    color: #63d46f;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.main .new-products h1 {
-    text-align: center;
+.main .team{
     margin-top: 50px;
 }
 
-.main .new-products .text {
+.main .team h1{
     text-align: center;
 }
 
-.main .new-products .new-cards{
-    margin-bottom: 50px;
-}
-
-.main .new-products .new-cards .card-wrapper .card {
+.main .team .container{
     margin-top: 40px;
-    margin-bottom: 30px;
-    border: 1px solid #e5e5e5;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    max-width: 600px;
 }
 
-.main .new-products .new-cards .card-wrapper .card:hover {
-    transform: scale(1.05);
-}
-
-.main .new-products .new-cards .card-wrapper .card .card-img {
-    height: 250px;
-    width: 100%;
-    border-radius: 4px;
-}
-
-.main .new-products .new-cards .card-wrapper .card .card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.main .new-products .new-cards .card-wrapper .card .card-body .card-title:hover {
-    color: #63d46f;
-}
-
-.main .new-products .new-cards .card-wrapper .card .card-body .card-text {
-    color: #63d46f;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.main .new-products .new-cards .card-wrapper .card .card-img {
-    height: 250px;
-    width: 100%;
-    border-radius: 4px;
-}
-
-.main .new-products .new-cards .card-wrapper .card .card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.main .team .container p{
+    text-align: center;
 }
 
 /* footer */

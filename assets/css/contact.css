@@ -1,0 +1,143 @@
+/* header */
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .header-body {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-body .phone {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.header .header-body .phone span {
+    margin-left: 15px;
+    cursor: pointer;
+    transition: color ease 0.4s;
+}
+
+.header .header-body .phone span:hover {
+    color: #63d46f;
+}
+
+.header .header-body .logo {
+    margin-right: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.header .header-body .icons {
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.header .header-body .icons .heart-icon, 
+.header .header-body .icons .basket-icon {
+    transition: color ease 0.3s;
+}
+
+.header .header-body .icons .heart-icon:hover, 
+.header .header-body .icons .basket-icon:hover {
+    color: #63d46f;
+}
+
+.header .header-body .icons .heart-icon {
+    margin-right: 7px;
+}
+
+.header .header-list {
+    display: flex;
+    justify-content: center;
+}
+
+.header .header-list .nav-item a {
+    color: #5c5d5c;
+    font-size: 14px;
+    transition: color ease 0.4s;
+}
+
+.header .header-list .nav-item a:hover {
+    color: #63d46f;
+    border-bottom: 1px solid #63d46f;
+    border-radius: 0%;
+}
+
+/* main */
+.form{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    margin-left: 250px;
+}
+
+.contact-info{
+    width: 350px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.form-info{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
+.footer footer {
+    background-image: url("/assets/images/pngtree-green-leaf-plant-background-picture-image_1441516.jpg");
+}
+
+.footer footer .container {
+    margin-top: 50px;
+}
+
+.footer footer .container .section {
+    margin-right: 30px;
+}
+
+.footer footer .container .section .list-unstyled .footer-link {
+    color: black;
+    text-decoration: none;
+    transition: color ease 0.3s;
+}
+
+.footer footer .container .section .list-unstyled .footer-link:hover {
+    color: #63d46f;
+}
+
+.footer footer .container .section .list-unstyled .address {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color ease 0.3s;
+}
+
+.footer footer .container .section .list-unstyled .address:hover {
+    color: #63d46f;
+}
+
+.footer footer .container .section .social-links .social-icon {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin: 0 8px;
+    transition: all 0.3s ease;
+}
+
+.footer footer .container .section .social-links .social-icon:hover {
+    transform: translateY(-3px);
+    color: white;
+}
