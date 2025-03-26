@@ -17,26 +17,31 @@
     margin-left: 70px;
 }
 
-.header .header-body .phone span {
-    margin-left: 15px;
+.header .header-body .phone i{
+    color: #63d46f;
+}
+
+.header .header-body .phone span h6 {
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 400;
     cursor: pointer;
     transition: color ease 0.4s;
 }
 
-.header .header-body .phone span:hover {
+.header .header-body .phone span h6:hover {
     color: #63d46f;
 }
 
 .header .header-body .logo {
-    margin-right: 50px;
-    width: 150px;
-    height: 150px;
+    margin-right: 70px;
+    width: 170px;
+    height: 170px;
 }
 
 .header .header-body .icons {
     margin-right: 70px;
     cursor: pointer;
-    transition: color ease 0.3s;
 }
 
 .header .header-body .icons .heart-icon, 
@@ -60,7 +65,7 @@
 
 .header .header-list .nav-item a {
     color: #5c5d5c;
-    font-size: 14px;
+    font-size: 15px;
     transition: color ease 0.4s;
 }
 
@@ -86,6 +91,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.main .home-about h1{
+    color: #5c5d5c;
 }
 
 .main .home-about .home {
@@ -130,7 +139,8 @@
 .main .three-cards .card-2,
 .main .three-cards .card-3 {
     border: 1px dashed #63d46f;
-    padding: 20px;
+    border-radius: 5px;
+    padding: 20px 65px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -140,12 +150,13 @@
 .main .three-cards .card-2 .card-icon,
 .main .three-cards .card-3 .id-card-icon {
     font-size: 30px;
+    color: #63d46f;
 }
 
 .main .three-cards .card-1 h5,
 .main .three-cards .card-2 h5,
 .main .three-cards .card-3 h5 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
