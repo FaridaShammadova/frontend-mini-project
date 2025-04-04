@@ -111,6 +111,7 @@
     cursor: pointer;
 }
 
+/* our story */
 .main .story{
     margin-top: 70px;
 }
@@ -129,6 +130,12 @@
     margin-top: 50px;
 }
 
+.main .story .container .anonimus {
+    width: 300px;
+    margin: 0;
+}
+
+/* 3 cards */
 .main .three-cards {
     display: flex;
     justify-content: space-around;
@@ -167,7 +174,8 @@
     font-size: 15px;
 }
 
-.main .about-numbers .container{
+/* ratings */
+.main .about-numbers .container h2{
     margin-top: 80px;
     font-style: italic;
     text-align: center;
@@ -178,8 +186,46 @@
     color: #63d46f;
 }
 
-.main .team{
-    margin-top: 50px;
+.main .about-numbers .container .ratings {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.main .about-numbers .container .ratings .rating-1,
+.main .about-numbers .container .ratings .rating-2,
+.main .about-numbers .container .ratings .rating-3 {
+    border-right: 1px solid #5c5d5c;
+}
+
+.main .about-numbers .container .ratings .rating-1 .rating-text,
+.main .about-numbers .container .ratings .rating-2 .rating-text,
+.main .about-numbers .container .ratings .rating-3 .rating-text,
+.main .about-numbers .container .ratings .rating-4 .rating-text {
+    padding-right: 100px;
+}
+
+.main .about-numbers .container .ratings .rating-1 .rating-text .number,
+.main .about-numbers .container .ratings .rating-2 .rating-text .number,
+.main .about-numbers .container .ratings .rating-3 .rating-text .number,
+.main .about-numbers .container .ratings .rating-4 .rating-text .number {
+    color: #63d46f;
+    font-size: 30px;
+    margin: 0;
+}
+
+.main .about-numbers .container .ratings .rating-1 .rating-text .text,
+.main .about-numbers .container .ratings .rating-2 .rating-text .text,
+.main .about-numbers .container .ratings .rating-3 .rating-text .text,
+.main .about-numbers .container .ratings .rating-4 .rating-text .text {
+    font-size: 25px;
+    margin: 0;
+}
+
+/* our team */
+/* .main .team{
+    margin-top: 100px;
 }
 
 .main .team h1{
@@ -195,6 +241,15 @@
     text-align: center;
 }
 
+.main .team .container .users-img{
+    display: flex;
+}
+
+.main .team .container .users-img img {
+    height: 100px !important;
+    width: 100px;
+} */
+ 
 /* footer */
 .footer footer {
     background-image: url("/assets/images/footer-background.jpg");

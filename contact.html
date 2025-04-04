@@ -63,35 +63,61 @@
         <!-- Form -->
         <div class="form">
             <div class="contact-info">
-                <h3>Contact Info:</h3>
-                <p>Fill the form and our team will get to back to you within 24 hours.</p>
+                <h2 class="title">Contact Info:</h2>
+                <p class="text">Fill the form amd our teaam will get to back
+                    to you within 24 hours.
+                </p>
 
-                <ul class="list-unstyled">
-                    <li class="address mb-3">
-                        <i class="fas fa-map-marker-alt me-2"></i>
-                        123 Business Street, New York, NY 10001
+                <ul class="list">
+                    <li>
+                        <i class="phone-icon fa-solid fa-phone-volume"></i>
+                        <span>+00 123 456 789</span>
                     </li>
-                    <li class="mb-3">
-                        <i class="fas fa-phone me-2"></i>
-                        <a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a>
+                    <li>
+                        <i class="mail-icon fa-solid fa-envelope"></i>
+                        <span class="mail">info@example.com</span>
+                    </li>
+                    <li>
+                        <i class="location-icon fa-solid fa-location-dot"></i>
+                        <span>13, Your Address, Here</span>
                     </li>
                 </ul>
             </div>
 
-            <div class="form-info">
-                <input type="text" placeholder="First Name*">
-                <input type="text" placeholder="Last Name*">
-                <input type="text" placeholder="Phone*">
-                <input type="email" placeholder="Email*">
-                <input type="text" placeholder="Message">
+            <form class="contact-form">
+                <div class="group-input">
+                    <div class="form-input me-lg-30 mb-35 mb-lg-0">
+                        <input type="text" name="firstName" placeholder="First Name*" class="input-value">
+                    </div>
 
-                <button>POST COMMENT</button>
-            </div>
+                    <div class="form-input mb-35">
+                        <input type="text" name="lastName" placeholder="Last Name*" class="input-value">
+                    </div>
+                </div>
+
+                <div class="group-input mb-35">
+                    <div class="form-input me-lg-30 mb-35 mb-lg-0">
+                        <input type="text" name="phone" placeholder="Phone*" class="input-value">
+                    </div>
+
+                    <div class="form-input">
+                        <input type="text" name="email" placeholder="Email*" class="input-value">
+                    </div>
+                </div>
+
+                <div class="form-input mb-5">
+                    <textarea name="message" placeholder="Message" class="textarea-input"></textarea>
+                </div>
+
+                <div class="button-wrap">
+                    <button type="submit" class="post-btn">POST COMMENT</button>
+                </div>
+            </form>
         </div>
 
         <!-- Map -->
         <div class="map">
-
+            <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.4328746853525!2d49.84912637500796!3d40.37709777144599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d079efb5163%3A0xc20aa51a5f0b5e01!2sCode%20Academy!5e0!3m2!1saz!2saz!4v1743774019094!5m2!1saz!2saz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 

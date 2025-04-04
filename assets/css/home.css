@@ -332,6 +332,7 @@
 
 .main .new-products .text {
     text-align: center;
+    margin-top: 20px;
 }
 
 .main .new-products .new-cards {
@@ -382,6 +383,98 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* what say client */
+
+
+/* latest blog */
+.main .latest-blog {
+    margin-bottom: 100px;
+}
+
+.main .latest-blog .title,
+.main .latest-blog .text {
+    text-align: center;
+}
+
+.main .latest-blog .text {
+    margin-top: 20px;
+}
+
+.main .latest-blog .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.main .latest-blog .cards .card-1,
+.main .latest-blog .cards .card-2,
+.main .latest-blog .cards .card-3 {
+    background-color: #ecfaf9;
+    border: 1px solid #ebf2ed;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 350px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main .latest-blog .cards .card-1:hover,
+.main .latest-blog .cards .card-2:hover,
+.main .latest-blog .cards .card-3:hover {
+    transform: scale(1.05);
+}
+
+.main .latest-blog .cards .card-1 .date,
+.main .latest-blog .cards .card-2 .date,
+.main .latest-blog .cards .card-3 .date {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main .latest-blog .cards .card-1 .date p,
+.main .latest-blog .cards .card-2 .date p,
+.main .latest-blog .cards .card-3 .date p {
+    margin-left: 20px;
+    color: #63d46f;
+    font-size: 13px;
+}
+
+.main .latest-blog .cards .card-1 .date .date-time,
+.main .latest-blog .cards .card-2 .date .date-time,
+.main .latest-blog .cards .card-3 .date .date-time {
+    margin-left: 20px;
+    color: #63d46f;
+    font-size: 13px;
+}
+
+.main .latest-blog .cards .about-blog {
+    margin-left: 10px;
+}
+
+.main .latest-blog .cards .about-blog h3 {
+    color: #5c5d5c;
+    font-size: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: color ease 0.3s;
+}
+
+.main .latest-blog .cards .about-blog h3:hover {
+    color: #63d46f;
+}
+
+.main .latest-blog .cards .about-blog p {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.main .latest-blog .cards .about-blog .blog-img {
+    margin: 10px 0px 13px 15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
 }
 
 /* footer */
